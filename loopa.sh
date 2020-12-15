@@ -33,7 +33,7 @@ for i in 2.94 2.96 2.98 3.00 3.02 3.04 3.06 3.08 3.10 3.12 3.14 3.14496 3.15 3.1
         sleep 30
         done
 	sleep 30
-        E=`tail -1 OSZICAR` ; echo $i $E  >>latticeparam_isif
+        E=`tail -1 OSZICAR` ; echo $i $E  >>latticeparam_isif7
 sleep 30
 done
-cat latticeparam_isif
+cat latticeparam_isif7
